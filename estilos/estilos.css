@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background: #334443;
+    position: fixed;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.logo h2{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-left: 90px;
+  padding-top: 15px;
+  font-family: 'Comfortaa', cursive;
+  color:white;
+}
+.branding img{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  max-width: 70px;
+  max-height: 60px;
+}
+.menu{
+    float: right;
+    line-height: 65px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 500ms ease;
+}
+.menu a:hover{
+    background: #34656d;
+    color: black;
+}
+.menu .submenu{
+    background: #334443;
+    box-shadow: 3px 10px 10px black;
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+
+
+.izquierda{
+  width: 50%;
+  height: 100vh;
+  background-color: #c6ffc1;
+  margin:auto;
+  padding: 100px;
+  text-align: center;
+}
+.derecha{
+  background-image: url(imagenes/01.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100vh;
+}
+#pantalla-dividida{
+  display: flex;
+}
+.creative{
+  color: black;
+}
+.izquierda h1{
+  font-size: 60px;
+  width: 50%;
+  margin:auto;
+  margin-bottom: 40px;
+  background-position: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.izquierda p{
+  font-size: 19px;
+  line-height: 30px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  width: 50%;
+  margin:auto;
+  margin-bottom: 40px;
+}
+.izquierda a{
+  border: 2px solid black;
+  padding: 20px;
+  text-decoration: none;
+  color:black;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  display: inline-block;
+}
+.link{
+  text-align: center;
+}
+/*Formacion Academica*/
+.i1{
+  background-image: url(imagenes/laboral.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.i1 p{
+  font-size: 1px;
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 980px;
+}
+.d1{
+    width: 70%;
+    height: 100vh;
+    background-color: #9fe6a0;
+}
+.d1 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 100px;
+  margin-bottom: -80px;
+}
+.d1 p{
+  font-size: 16px;
+}
+.trabajo {
+  max-width: 150px;
+  max-height: 100px;
+  vertical-align:middle;
+}
+.d1 table{
+  padding: 20px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.d1 h5{
+  text-align: center;
+}
+
+/*experiencia laboral*/
+.i2{
+  background-image: url(imagenes/experiencia.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.i2 p{
+  font-size: 1px;
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 980px;
+}
+.d2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  margin:auto;
+  padding: 100px;
+}
+.d2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 50px;
+  margin-bottom: -50px;
+}
+.d2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.d2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.d2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+/*Area de interes lectura*/
+.lec1{
+  background-image: url(imagenes/lectura.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.lec1 p{
+  font-size: 1px;
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 980px;
+}
+.lec2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  margin:auto;
+  padding: 100px;
+}
+.lec2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  width: 30%;
+  margin:auto;
+  margin-bottom: 1px;
+}
+.lec2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.lec2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.lec2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+/*area de interes musical*/
+.mu1{
+  background-image: url(imagenes/musica.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.mu1 p{
+  font-size: 1px;
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 980px;
+}
+.mu2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #c6ffc1;
+  margin:auto;
+  padding: 100px;
+}
+.mu2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  width: 30%;
+  margin:auto;
+  margin-bottom: 1px;
+}
+.mu2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.mu2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.mu2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+/*Area de interes manualidades*/
+.ma1{
+  background-image: url(imagenes/manualidades.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.ma1 p{
+  font-size: 1px;
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 980px;
+}
+.ma2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  margin:auto;
+  padding: 100px;
+}
+.ma2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  width: 30%;
+  margin:auto;
+  margin-bottom: 10px;
+}
+.ma2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 15px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.ma2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.ma2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+/*area de interes deporte*/
+.de1{
+  background-image: url(imagenes/deporte.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.de1 p{
+  font-size: 1px;
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 980px;
+}
+.de2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  margin:auto;
+  padding: 100px;
+}
+.de2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  width: 30%;
+  margin:auto;
+  margin-bottom: 10px;
+}
+.de2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 15px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.de2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.de2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+/*Software lenguajes de programacion*/
+.pro1{
+  background-image: url(imagenes/codigo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.pro1 p{
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 1000px;
+}
+.pro2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  padding: 50px;
+}
+.pro2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 50px;
+  margin-bottom: -30px;
+}
+.pro2 table{
+  margin-left: -80px;
+  padding: 40px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 15px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.pro2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.pro2 p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+/*Otros programas*/
+.op1{
+  background-image: url(imagenes/ot.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.op1 p{
+  font-size: 15px;
+  text-align: justify;
+  position: absolute;
+  top: 95%;
+  right: 1000px;
+}
+.op2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  margin:auto;
+  padding: 100px;
+}
+.op2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 25px;
+  margin-bottom: -30px;
+}
+.op2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 15px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.op2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.op2 p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+/*software Microsoft Office*/
+.mo1{
+  background-image: url(imagenes/office.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh;
+}
+.mo2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  margin:auto;
+  padding: 100px;
+}
+.mo2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 25px;
+  margin-bottom: -30px;
+}
+.mo2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 15px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.mo2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.mo2 p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+/*contacto*/
+.co1{
+  background-image: url(imagenes/contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100vh
+}
+.co2{
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  background-color: #9fe6a0;
+  margin:auto;
+  padding: 100px;
+}
+.co2 h1{
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 50px;
+  margin-bottom: -30px;
+}
+.co2 table{
+  margin-left: -80px;
+  padding: 5px;
+  border-collapse: separate;
+  border-color: black;
+  border-spacing: 15px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.co2 h5{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.co2 p{
+  font-size: 15px;
+  text-align: justify;
+}
